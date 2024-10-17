@@ -43,8 +43,8 @@ jobs:
 
       - name: Commit files
         run: |
-          git config --local user.email "snakem982@gmail.com"
-          git config --local user.name "snakem982"
+          git config --local user.email "jxronghui@gmail.com"
+          git config --local user.name "freetcp"
           git add -A
           git commit -a -m "Updated $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M %Z')" --allow-empty
 
