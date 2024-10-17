@@ -1,4 +1,4 @@
-name: update clash-meta.yaml
+name: clash-meta.yaml
 
 on:
   push:
@@ -43,14 +43,13 @@ jobs:
 
       - name: Commit files
         run: |
-          git config --local user.email "jxronghui@gmail.com"
-          git config --local user.name "freetcp"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
           git add -A
           git commit -a -m "Updated $(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M %Z')" --allow-empty
 
       - name: Git Push
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          branch: master
           
