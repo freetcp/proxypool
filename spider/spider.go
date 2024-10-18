@@ -11,7 +11,7 @@ import (
 	"github.com/metacubex/mihomo/common/utils"
 	"github.com/metacubex/mihomo/config"
 	C "github.com/metacubex/mihomo/constant"
-	"github.com/snakem982/proxypool/tools"
+	"github.com/freetcp/proxypool/tools"
 	"gopkg.in/yaml.v3"
 	"log"
 	"net"
