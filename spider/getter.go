@@ -2,7 +2,7 @@ package spider
 
 import (
 	"errors"
-	"github.com/snakem982/proxypool/tools"
+	"github.com/freetcp/proxypool/tools"
 	"golang.org/x/net/html"
 	"strings"
 	"sync"
